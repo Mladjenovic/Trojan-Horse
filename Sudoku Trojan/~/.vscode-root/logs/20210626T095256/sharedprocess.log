@@ -1,0 +1,19 @@
+[2021-06-26 09:53:40.502] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-06-26 09:53:41.013] [sharedprocess] [info] Installing extension: ms-python.python
+[2021-06-26 09:53:44.066] [sharedprocess] [info] Downloaded extension: ms-python.python /home/kali/Desktop/projekat/sbes_superproject/Sudoku Trojan/~/.vscode-root/CachedExtensionVSIXs/ms-python.python-2021.6.944021595
+[2021-06-26 09:53:56.080] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.21525002-bb11-459e-83c1-6ec0dd049db9: ms-python.python
+[2021-06-26 09:53:56.158] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.python-2021.6.944021595
+[2021-06-26 09:53:56.171] [sharedprocess] [info] Installation completed. ms-python.python
+[2021-06-26 09:53:56.566] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-06-26 09:53:56.750] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2021-06-26 09:54:01.689] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/kali/Desktop/projekat/sbes_superproject/Sudoku Trojan/~/.vscode-root/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.6.3
+[2021-06-26 09:54:04.117] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/kali/Desktop/projekat/sbes_superproject/Sudoku Trojan/~/.vscode-root/CachedExtensionVSIXs/ms-toolsai.jupyter-2021.6.999662501
+[2021-06-26 09:54:08.698] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.3b312ed1-1224-4990-b2fd-45552e1ef699: ms-toolsai.jupyter
+[2021-06-26 09:54:08.757] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501
+[2021-06-26 09:54:08.765] [sharedprocess] [info] Installation completed. ms-toolsai.jupyter
+[2021-06-26 09:54:08.801] [sharedprocess] [info] Extensions installed successfully: ms-toolsai.jupyter
+[2021-06-26 09:54:14.013] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.e1e1d807-8d34-42f5-87f7-9b02f39ad2c9: ms-python.vscode-pylance
+[2021-06-26 09:54:14.029] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.vscode-pylance-2021.6.3
+[2021-06-26 09:54:14.034] [sharedprocess] [info] Installation completed. ms-python.vscode-pylance
+[2021-06-26 09:54:14.343] [sharedprocess] [info] Extensions installed successfully: ms-python.vscode-pylance
+[2021-06-26 09:54:14.365] [sharedprocess] [info] Extensions installed successfully: ms-python.python

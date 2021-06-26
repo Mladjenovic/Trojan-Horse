@@ -1,0 +1,43 @@
+Info 2021-06-26 09:54:11: ZMQ install verified.
+Info 2021-06-26 09:54:12: id is f69c314d-8cce-4cc2-b5f7-06a7d1cd8259
+Error 2021-06-26 09:54:12: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/root/.config/Code/User/settings.json' (Error: Unable to resolve non-existing file '/root/.config/Code/User/settings.json')
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:155535)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:90:499995)
+	at async g.fixSettingsFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:52:293474)
+	at async Promise.all (index 0)
+	at async g.updateSettings (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:52:295194)] {
+  code: 'FileNotFound'
+}
+Error 2021-06-26 09:54:12: Jupyter Extension (Error in Failed to update settings.json, method:fixSettingsFile): [EntryNotFound (FileSystemError): Unable to read file '/home/kali/Desktop/projekat/sbes_superproject/Sudoku Trojan/.vscode/settings.json' (Error: Unable to resolve non-existing file '/home/kali/Desktop/projekat/sbes_superproject/Sudoku Trojan/.vscode/settings.json')
+	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:155535)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async m.readFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:90:499995)
+	at async g.fixSettingsFile (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:52:293474)
+	at async Promise.all (index 1)
+	at async g.updateSettings (/root/.vscode/extensions/ms-toolsai.jupyter-2021.6.999662501/out/client/extension.js:52:295194)] {
+  code: 'FileNotFound'
+}
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -c "import jupyter"
+> /usr/bin/python -c "import jupyter"
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -c "import jupyter"
+> /usr/bin/python -c "import jupyter"
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -c "import notebook"
+> /usr/bin/python -c "import notebook"
+Info 2021-06-26 09:54:21: Process Execution: > /usr/bin/python -c "import notebook"
+> /usr/bin/python -c "import notebook"
+Info 2021-06-26 09:54:35: Shutting down notebooks for de8d5f97-904a-4d94-91a4-ab3ec7007820
+Info 2021-06-26 09:54:35: Disposing HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Disposing super HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Disposing HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Finished disposing HostJupyterExecution  83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Disposing HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Finished disposing HostJupyterExecution  83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Getting live share API during dispose HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Detaching HostJupyterExecution 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Cleaning up server cache 83dd1e4c-7a79-4f9e-93ca-24fb40578972
+Info 2021-06-26 09:54:35: Finished disposing HostJupyterExecution  83dd1e4c-7a79-4f9e-93ca-24fb40578972

