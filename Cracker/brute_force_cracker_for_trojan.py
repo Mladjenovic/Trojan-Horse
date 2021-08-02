@@ -1,9 +1,9 @@
-import itertools
 import time
-import crypt
+import itertools
+from crypt import crypt
 
 
-def brute_force_cracker(shadow, shadowfull):
+def brute_force_cracker(shadowfull):
     start = time.time()
     chars = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`~!@#$%^&*()_-+=[{]}|:;'\",<.>/?"
     attempts = 0
@@ -11,7 +11,7 @@ def brute_force_cracker(shadow, shadowfull):
         for letter in itertools.product(chars, repeat=i):
             attempts += 1
             letter = ''.join(letter)
-            shadowGuess = crypt.crypt(letter, shadow)
+            shadowGuess = crypt(letter, shadowfull)
             if shadowGuess == shadowfull:
                 end = time.time()
                 final_time = end - start
@@ -19,9 +19,8 @@ def brute_force_cracker(shadow, shadowfull):
 
 
 if __name__ == "__main__":
-    shadow = raw_input("Enter shadow>" )
-    shadowfull = raw_input("Enter shadowfull> ")
+    shadowfull = input("Enter shadowfull> ")
     # Allowed characters
-    password, tries, timeAmount = brute_force_cracker(shadow, shadowfull)
+    password, tries, timeAmount = brute_force_cracker(shadowfull)
     print("Brute force cracker cracked the password '%s' in %s tries and %s seconds!" % (password, tries, timeAmount))
 

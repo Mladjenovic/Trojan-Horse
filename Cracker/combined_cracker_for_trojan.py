@@ -9,8 +9,8 @@ def combined_cracker():
 
 
 if __name__ == "__main__":
-    shadow = raw_input("Enter shadow> ")
-    shadowfull = raw_input("Enter shadowfull> ")
+    shadow = input("Enter shadow> ")
+    shadowfull = input("Enter shadowfull> ")
 
     dict_found, dict_password, dict_tries, dict_timeAmount = dictionary_cracker(shadow, shadowfull)
 

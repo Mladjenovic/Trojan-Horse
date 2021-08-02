@@ -19,7 +19,7 @@ def brute_force_cracker(sha256hash):
 
 
 if __name__ == "__main__":
-    sha256hash = input("Enter SHA256 hash >")
+    sha256hash = input("Enter SHA256 hash > ")
     # Allowed characters
     password, tries, timeAmount = brute_force_cracker(sha256hash)
     print("Brute force cracker cracked the password '%s' in %s tries and %s seconds!" % (password, tries, timeAmount))
