@@ -9,16 +9,15 @@ def combined_cracker():
 
 
 if __name__ == "__main__":
-    shadow = input("Enter shadow> ")
     shadowfull = input("Enter shadowfull> ")
 
-    dict_found, dict_password, dict_tries, dict_timeAmount = dictionary_cracker(shadow, shadowfull)
+    dict_found, dict_password, dict_tries, dict_timeAmount = dictionary_cracker(shadowfull)
 
     if not dict_found:
         print("-"*60)
         print("Dictionary cracker failed to crack the password. Tries: %s Time: %s seconds" % (dict_tries, dict_timeAmount))
         
-        brute_password, brute_tries, brute_timeAmount = brute_force_cracker(shadow, shadowfull)
+        brute_password, brute_tries, brute_timeAmount = brute_force_cracker(shadowfull)
         print("Brute force cracker cracked the password '%s' in %s tries and %s seconds!" % (brute_password, brute_tries, brute_timeAmount))
     else:
         print("-"*60)
