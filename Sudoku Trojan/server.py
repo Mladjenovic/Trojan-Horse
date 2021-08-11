@@ -2,6 +2,7 @@ import socket
 import threading 
 from vidstream import StreamingServer
 
+
 HOST = '127.0.0.1'  # The server's hostname or IP address
 PORT = 65433
 
@@ -21,9 +22,11 @@ def connection():
                     data = input('Enter command: ')
 
                     if data == 'start video':
-                        conn.send('start video'.encode('utf-8'))
+                        conn.send(data.encode('utf-8'))
                         server = StreamingServer(HOST, 9999)
                         server.start_server()
+
+                        print(conn.recv(2048).decode('utf-8'))
 
                         while input('') != 'stop video':
                             continue
@@ -35,6 +38,8 @@ def connection():
                         conn.send(data.encode('utf-8'))
                         server = StreamingServer(HOST, 9999)
                         server.start_server()
+
+                        print(conn.recv(2048).decode('utf-8'))
 
                         while input('') != 'stop camera':
                             continue
