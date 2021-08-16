@@ -1,6 +1,9 @@
 import socket
 import threading 
 from vidstream import StreamingServer
+from image_server import image_server
+
+
 
 
 HOST = '127.0.0.1'  # The server's hostname or IP address
@@ -70,4 +73,7 @@ def connection():
 
 
 if __name__ == "__main__":
+    t1 = threading.Thread(target=image_server)
+    t1.start()
+    
     connection()
